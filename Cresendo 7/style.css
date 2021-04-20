@@ -1,0 +1,164 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #18224b;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+/* .topnav-right {
+  float: right;
+} */
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #ffd460;
+  text-decoration-color: #ffd460;
+  transition: 0.5s ease;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.main-container {
+  min-height: 100vh;
+  padding-top: 3rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.main_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_row h1 {
+  font-size: 4rem;
+}
+
+.main_row img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .main_row {
+    flex-direction: column;
+  }
+  .main_row h1 {
+    font-size: 2.6rem;
+  }
+  .main_row .col-6 {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .about-row {
+    flex-direction: column;
+  }
+  .abt-col {
+    width: 100%;
+    text-align: center;
+  }
+  #social-media {
+    width: 90%;
+  }
+}
+#about {
+  background: #3f3e77;
+  border-radius: 1rem;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.card {
+  border-bottom: 7px solid #ffd460;
+  background-color: #3f3e77;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 995px) {
+  .abt-head {
+    font-size: 1.4rem;
+  }
+  .abt-bod {
+    font-size: 1rem;
+  }
+}
+
+#projects {
+  align-items: center;
+  justify-content: space-around;
+}
+.pro {
+  margin: 10px auto;
+  width: 100%;
+}
+
+#social-media{
+  background: #3f3e77;
+  border-radius: 1rem;
+  width: 80%;
+}
+@media only screen and (max-width: 600px) {
+  #social-media {
+    width: 90%;
+  }
+}
+.media_link{
+  padding: 7px;
+  margin-left: 5px;
+  border: 2px solid #ffd460;
+}
+
+.social-media-link:hover{
+  text-decoration: none;
+  background-color: #ffd460;
+  transition: 0.5s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: black;
+}
+
+.s-c {
+  margin: 10px auto;
+  width: 20%;
+}
+.soc {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 1150px) {
+  .soc {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .s-c {
+    width: 40%;
+  }
+}
+
+.test-img {
+  width: 10%;
+}
+
+.testimonial-image {
+  border-radius: 200%;
+  width: 25%!important;
+  text-align: center;
+  float: center;
+  /* height: 10%; */
+  /* margin: 20px; */
+}
